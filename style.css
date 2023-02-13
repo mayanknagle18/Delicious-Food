@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: black;
+}
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -40px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #408f59;
+}
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #408f59;
+    border-radius: 60px;
+    font-weight: 700;
+}
+/* section*/
+.main {
+    background: url(background1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: 2px solid black;
+    outline: none;
+    background-color: #408f59;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover {
+    background-color: #3e6b4d;
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow: -4px -4px 36px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px -4px 36px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px -4px 36px 2px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.apple {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(background2.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.news {
+    background-color: #000;
+    color: #fff;
+}
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news p {
+    margin: 0;
+}
+.bi {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
